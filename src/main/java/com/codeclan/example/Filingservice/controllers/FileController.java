@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "//files")
+@RequestMapping(value = "/files")
 public class FileController {
     @Autowired
     FileRepository fileRepository;
